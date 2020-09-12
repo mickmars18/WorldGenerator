@@ -24,6 +24,6 @@ public class Planet : MonoBehaviour
 
     private void GenerateSphereMesh(int precision, float radius)
     {
-        m_MeshGameObject.GetComponent<MeshFilter>().sharedMesh = UVSphereMeshGenerator.GenerateMesh(precision, radius);
+        m_MeshGameObject.GetComponent<MeshFilter>().sharedMesh = NormalizedSphereMeshGenerator.GenerateMesh(precision, radius);
     }
 }
