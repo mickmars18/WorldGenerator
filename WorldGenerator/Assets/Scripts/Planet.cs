@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Planet : MonoBehaviour
 {
-    [Range(5, 256)]
+    [Range(1, 20)]
     public int precision = 40;
 
     [Range(0.1f, 100.0f)]
